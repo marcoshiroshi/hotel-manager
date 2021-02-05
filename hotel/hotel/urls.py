@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pagina/templates/pagina/', include('pagina.urls')),
+    path('pagina/', include('pagina.urls')),
 ]
