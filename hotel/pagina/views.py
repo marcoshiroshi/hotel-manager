@@ -9,3 +9,6 @@ def index(request):
     #return HttpResponse(template.render())
     return render(request, 'pagina/index.html')
 
+def quartos(request):
+    return render(request, 'pagina/quartos.html')
+
