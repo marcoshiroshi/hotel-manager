@@ -12,7 +12,7 @@ class Pessoa(models.Model):
     ]
     genero = models.CharField(max_length=15, choices=tipo_genero)
     dt_nasc = models.DateField()
-    numero = models.CharField(max_length=20)
+    telefone = models.CharField(max_length=20)
     email = models.CharField(max_length=100)
     tipo_funcao = [
         ('1','Gerente'),
